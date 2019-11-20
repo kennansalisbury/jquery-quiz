@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>JQuery Quiz</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-  <h1>Quiz Time!</h1>
-  <!-- TODO: ADD YOUR HTML CODE HERE -->
-  
-  <!-- TODO: ADD JQUERY DEPENDENCY -->
-  <!-- TODO: ADD YOUR JS FILES -->
-</body>
+  <head>
+    <title>Quiz</title>
+	<link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="quiz">
+          <h1>THE HOLIDAYS CAME EARLY!!!</h1>
+          <p>Can you guess these movie quotes?</p>
+        <div id="showQA">
+          <!-- put question here! -->
+          <!-- put answers here! -->
+        </div>
+		<section class="btn-group">
+          <button class="submit" type="submit">Start Quiz!</button>
+        </div>
+
+		<div class="QA">
+		</div>
+
+      </div>
+
+    </div>
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--jQuery must be declared before any script using jQuery-->
+	<script src="./quiz.js"></script>
+  </body>
 </html>
